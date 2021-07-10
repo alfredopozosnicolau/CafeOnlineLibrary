@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Work+Sans:wght@500;900&display=swap');
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container {
+    background: url('/images/background.png') center center/cover
+    no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container > h1 {
+    color:#F6C28B;
+    font-size: 100px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 160px;
+    width: 1138px;
+    height: 123px;
+}
+
+.hero-container > h2 {
+    margin-top: 140px;
+    color: #82DDF0;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    width: 1138px;
+    height: 122px;
+}
+
+.hero-container > p {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 1138px;
+    height: 122px;
+    margin-top: -40px;
+}
+
+.hero-btn {
+    margin-top: 30px;
+}

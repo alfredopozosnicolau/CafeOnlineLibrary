@@ -1,0 +1,25 @@
+.available {
+  padding: 10px;
+  background-color: #2eff2e;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  color: black;
+  border: solid #15d600;
+}
+.unavailable {
+  padding: 10px;
+  background-color: #e73002;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  border: solid #ff8447;
+}
+
+h4{
+  font-weight: bold;
+  color: rgb(57, 150, 150);
+  
+
+}
